@@ -137,7 +137,7 @@ def test():
             #print(f'Sequence of Process: {sequence_of_process}')
 
 
-    no_of_processes = 10
+    no_of_processes = 100000
     priority = Priority()
     priority.processData(no_of_processes)
 
